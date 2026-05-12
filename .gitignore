@@ -1,0 +1,13 @@
+# Built workflow bundle — distributed via GitHub Releases, not committed
+Claude.alfredworkflow
+
+# macOS metadata
+.DS_Store
+
+# Claude Code local state
+.claude/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp

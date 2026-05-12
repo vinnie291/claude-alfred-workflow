@@ -1,6 +1,7 @@
 BSD 3-Clause License
 
-Copyright (c) 2024, Running with Crayons Ltd
+Copyright (c) 2024, Running with Crayons Ltd (original OpenAI workflow)
+Copyright (c) 2026, Vinh Le (Claude port + modifications)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

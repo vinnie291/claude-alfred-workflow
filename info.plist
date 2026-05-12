@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.vinhle.alfred-claude</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>A1A0DE00-0001-0001-0001-000000000001</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000002</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-000000000002</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000003</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Stop generating answer</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000004</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Start new chat</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-00000000000C</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Copy last answer</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-00000000000D</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Copy full chat</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-000000000003</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000010</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-000000000004</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000003</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-000000000005</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000007</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000006</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000008</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-000000000009</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-00000000000B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-00000000000A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000002</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-00000000000B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000002</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-00000000000C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-00000000000E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-00000000000D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-00000000000E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-00000000000E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-00000000000F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1A0DE00-0001-0001-0001-000000000010</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1A0DE00-0001-0001-0001-000000000005</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vinh Le</string>
+	<key>description</key>
+	<string>Ask Claude from Alfred. Streaming Text View with rolling conversation history.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Claude</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>{var:claude_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>↩ Continue chat · ⌘↩ New chat</string>
+				<key>text</key>
+				<string>Ask Claude</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-000000000001</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>behaviour</key>
+				<integer>2</integer>
+				<key>fontmode</key>
+				<integer>0</integer>
+				<key>fontsizing</key>
+				<integer>1</integer>
+				<key>footertext</key>
+				<string>↩ Ask question · ⌘↩ New chat · ⌥↩ Copy last · ⌃↩ Copy all · ⇧↩ Interrupt</string>
+				<key>inputfile</key>
+				<string>claude</string>
+				<key>inputtype</key>
+				<integer>1</integer>
+				<key>loadingtext</key>
+				<string>Querying Claude API…</string>
+				<key>outputmode</key>
+				<integer>1</integer>
+				<key>scriptinput</key>
+				<integer>2</integer>
+				<key>spellchecking</key>
+				<integer>0</integer>
+				<key>stackview</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.text</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-000000000002</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly stream_file="${alfred_workflow_cache}/stream.txt"
+readonly pid_stream_file="${alfred_workflow_cache}/pid.txt"
+
+if [[ -f "${pid_stream_file}" ]]; then
+  pid_stream="$(&lt; "${pid_stream_file}")"
+  [[ -n "${pid_stream}" ]] &amp;&amp; kill "${pid_stream}" 2&gt;/dev/null
+fi
+/bin/rm -f "${stream_file}" "${pid_stream_file}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-000000000003</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>new_chat</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-000000000004</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:new_chat}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>1</string>
+						<key>outputlabel</key>
+						<string>New Chat</string>
+						<key>uid</key>
+						<string>A1A0DE00-0001-0001-0001-000000000006</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Continue</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-000000000005</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>new_chat</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-000000000007</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>view_chat</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-000000000008</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>new_chat</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-000000000009</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>view_chat</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-00000000000A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/bin/rm -f "${alfred_workflow_data}/chat.json" "${alfred_workflow_cache}/stream.txt" "${alfred_workflow_cache}/pid.txt"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-00000000000B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function readChat(path) {
+  const chatString = $.NSString.stringWithContentsOfFileEncodingError(path, $.NSUTF8StringEncoding, undefined).js
+  return JSON.parse(chatString)
+}
+
+// Main
+function run() {
+  const chatFile = `${envVar("alfred_workflow_data")}/chat.json`
+  return readChat(chatFile).findLast(message =&gt; message["role"] === "assistant")?.["content"] || ""
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-00000000000C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function readChat(path) {
+  const chatString = $.NSString.stringWithContentsOfFileEncodingError(path, $.NSUTF8StringEncoding, undefined).js
+  return JSON.parse(chatString)
+}
+
+function markdownChat(messages, ignoreLastInterrupted = true) {
+  const items = []
+  messages.forEach((m, i, all) =&gt; {
+    if (m["role"] === "user") {
+      const userTwice = all[i + 1]?.["role"] === "user"
+      const isLast = i === all.length - 1
+      const quoted = m["content"].split("\n").map(l =&gt; `&gt; ${l}`).join("\n")
+      let block = quoted
+      if (userTwice || (isLast &amp;&amp; !ignoreLastInterrupted)) {
+        block += `\n\n[Answer Interrupted]`
+      }
+      items.push({ type: "user", text: block })
+      if (isLast &amp;&amp; ignoreLastInterrupted) items.push({ type: "claude", text: `## Claude` })
+    } else if (m["role"] === "assistant") {
+      items.push({ type: "claude", text: `## Claude\n\n${m["content"]}` })
+    }
+  })
+  let out = ""
+  items.forEach((it, idx) =&gt; {
+    if (idx &gt; 0) out += it.type === "user" ? "\n\n---\n\n" : "\n\n"
+    out += it.text
+  })
+  return out + "\n\n"
+}
+
+// Main
+function run() {
+  const chatFile = `${envVar("alfred_workflow_data")}/chat.json`
+  return markdownChat(readChat(chatFile), false)
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-00000000000D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-00000000000E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-00000000000F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>streaming_now</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>A1A0DE00-0001-0001-0001-000000000010</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Setup
+
+1. Sign in to [console.anthropic.com](https://console.anthropic.com/login).
+2. On the [API keys page](https://console.anthropic.com/settings/keys), click `+ Create Key`.
+3. Name your new key and click `Create Key`.
+4. Copy the key and paste it into the [Workflow's Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+
+## Usage
+
+### Claude
+
+Query Claude via the `ask` keyword. Reply streams live in Alfred's Text View.
+
+* &lt;kbd&gt;↩&lt;/kbd&gt; Ask a new question.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Clear and start new chat.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy last answer.
+* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy full chat.
+* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Stop generating answer.
+
+Type `ask` with no query to reopen the prior chat.
+
+### Configuration
+
+Open the Workflow's Configuration (gear icon → **Configure Workflow…**) to set:
+
+* **Anthropic API Key** — required. Not exported when sharing the workflow.
+* **Model** — Opus 4.7, Sonnet 4.6, or Haiku 4.5.
+* **Max Tokens** — cap on reply length.
+* **Context** — how many recent messages to send with each request.
+* **Timeout** — seconds without stream activity before considering the connection stalled.
+* **System Prompt** — sent with every request.
+
+---
+
+## Credits
+
+Architecture, streaming logic, and Text View graph ported from the [official OpenAI Alfred workflow](https://github.com/alfredapp/openai-workflow) by [Vítor Galvão](https://github.com/vitorgalvao). Huge thanks — this workflow would not exist without his work.</string>
+	<key>uidata</key>
+	<dict>
+		<key>A1A0DE00-0001-0001-0001-000000000001</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-000000000002</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-000000000003</key>
+		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-000000000004</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-000000000005</key>
+		<dict>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-000000000007</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1040</integer>
+			<key>ypos</key>
+			<integer>120</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-000000000008</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1040</integer>
+			<key>ypos</key>
+			<integer>240</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-000000000009</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-00000000000A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>420</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-00000000000B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-00000000000C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-00000000000D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>-80</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-00000000000E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
+			<key>ypos</key>
+			<integer>-20</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-00000000000F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>-20</integer>
+		</dict>
+		<key>A1A0DE00-0001-0001-0001-000000000010</key>
+		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>sk-ant-…</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Get one at console.anthropic.com. Not exported when sharing this workflow.</string>
+			<key>label</key>
+			<string>Anthropic API Key</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>anthropic_api_key</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>ask</string>
+				<key>placeholder</key>
+				<string>ask</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword to trigger Claude. Default: ask</string>
+			<key>label</key>
+			<string>Claude Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>claude_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>claude-opus-4-7</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Opus 4.7 (smartest)</string>
+						<string>claude-opus-4-7</string>
+					</array>
+					<array>
+						<string>Sonnet 4.6 (balanced)</string>
+						<string>claude-sonnet-4-6</string>
+					</array>
+					<array>
+						<string>Haiku 4.5 (fastest)</string>
+						<string>claude-haiku-4-5-20251001</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Which Claude model to use.</string>
+			<key>label</key>
+			<string>Model</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>claude_model</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>defaultvalue</key>
+				<integer>2048</integer>
+				<key>markercount</key>
+				<integer>31</integer>
+				<key>maxvalue</key>
+				<integer>8192</integer>
+				<key>minvalue</key>
+				<integer>256</integer>
+				<key>onlystoponmarkers</key>
+				<true/>
+				<key>showmarkers</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Maximum tokens in Claude's reply.</string>
+			<key>label</key>
+			<string>Max Tokens</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>variable</key>
+			<string>max_tokens</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>defaultvalue</key>
+				<integer>20</integer>
+				<key>markercount</key>
+				<integer>18</integer>
+				<key>maxvalue</key>
+				<integer>40</integer>
+				<key>minvalue</key>
+				<integer>4</integer>
+				<key>onlystoponmarkers</key>
+				<true/>
+				<key>showmarkers</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>How many recent messages to keep in rolling context.</string>
+			<key>label</key>
+			<string>Context</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>variable</key>
+			<string>max_context</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>defaultvalue</key>
+				<integer>8</integer>
+				<key>markercount</key>
+				<integer>27</integer>
+				<key>maxvalue</key>
+				<integer>30</integer>
+				<key>minvalue</key>
+				<integer>3</integer>
+				<key>onlystoponmarkers</key>
+				<true/>
+				<key>showmarkers</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Seconds without stream activity before considering connection stalled.</string>
+			<key>label</key>
+			<string>Timeout</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>variable</key>
+			<string>timeout_seconds</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>You are Claude, a helpful assistant invoked from Alfred on macOS. Answer clearly and concisely. Use markdown when it aids readability (lists, code blocks, headings) since replies render as markdown. Never use markdown tables — Alfred's Text View does not render them. Format tabular data as a bulleted list or aligned plain-text columns instead.</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>System prompt sent with every request. Leave blank for none.</string>
+			<key>label</key>
+			<string>System Prompt</string>
+			<key>type</key>
+			<string>textarea</string>
+			<key>variable</key>
+			<string>system_prompt</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>anthropic_api_key</key>
+		<string></string>
+		<key>claude_api_endpoint</key>
+		<string>https://api.anthropic.com/v1/messages</string>
+		<key>claude_keyword</key>
+		<string>ask</string>
+		<key>claude_model</key>
+		<string>claude-opus-4-7</string>
+		<key>claude_model_override</key>
+		<string></string>
+		<key>max_context</key>
+		<string>20</string>
+		<key>max_tokens</key>
+		<string>2048</string>
+		<key>system_prompt</key>
+		<string>You are Claude, a helpful assistant invoked from Alfred on macOS. Answer clearly and concisely. Use markdown when it aids readability (lists, code blocks, headings) since replies render as markdown. Never use markdown tables — Alfred's Text View does not render them. Format tabular data as a bulleted list or aligned plain-text columns instead.</string>
+		<key>timeout_seconds</key>
+		<string>8</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>anthropic_api_key</string>
+	</array>
+	<key>version</key>
+	<string>2.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
